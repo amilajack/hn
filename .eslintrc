@@ -6,6 +6,8 @@
     "node": true
   },
   "rules": {
+    "global-require": 1,
+    "no-use-before-define": 0,
     "no-underscore-dangle": 0,
     comma-dangle: ["error", "never"],
     "consistent-return": 0,

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Hacker News</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <div class="touch">
+      <div class="pages-container">
+        <div class="page page-home show-page">
+          <div class="header-container">
+            <header class="header">
+              <ul class="l-menu list-inline menu">
+                <li>
+                  <a href="#" class="toggle-submenu"><span class="icon icon-settings"></span></a>
+                  <ul class="submenu">
+                    <li><a href="#" class="filter-fp">Hacker News</a></li>
+                    <li><a href="#" class="filter-ask-hn">Ask HN</a></li>
+                    <li><a href="#" class="filter-show-hn">Show HN</a></li>
+                    <li><a href="#" class="filter-today-top-10">Top 10 (Today)</a></li>
+                    <li><a href="#" class="filter-yesterday-top-10">Top 10 (Yesterday)</a></li>
+                    <li><a href="#" class="filter-week-top-10">Top 10 (Last 7 days)</a></li>
+                    <li><a href="#" class="show-settings">Settings</a></li>
+                    <!--li><a href="#" class="show-about">About</a></li-->
+                    <li><a href="#" class="show-performance">Performance</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <h1>Hacker News</h1>
+              <ul class="r-menu list-inline menu">
+                <li><a href="#" class="reload"><span class="icon icon-refresh"></span></a></li>
+              </ul>
+            </header>
+          </div>
+          <section class="pagebd-container">
+            <div class="bd">
+              <br><div class="show-loading"><div class="circle"></div><br>Loading...</div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page page-article-content" data-page="page-article-content"></div>
+
+        <div class="page page-article-comments" data-page="page-article-comments"></div>
+
+        <div class="page page-performance"></div>
+
+        <div class="page page-settings"></div>
+
+        <div class="page page-about"></div>
+      </div>
+    </div>
+
+    <div class="mobile"></div>
+
+    <div id="loading">
+        <div class="circle"></div>
+    </div>
+
+    <div class="touch-layer disable-touch-move"></div>
+
+    <script src="/dist/bundle.js"></script>
+
+  </body>
+</html>
