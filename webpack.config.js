@@ -20,10 +20,10 @@ export default {
   entry: './browser.js',
   output: {
     path: path.join(__dirname, 'lib'),
-    filename: 'thepiratebay.js',
+    filename: 'hackernews.dist.js',
     libraryTarget: 'umd',
-    library: 'thepiratebay',
-    umdNamedDefine: 'thepiratebay'
+    library: 'HN',
+    umdNamedDefine: 'HN'
   },
   resolve: {
     extensions: ['', '.js', '.jsx'],
