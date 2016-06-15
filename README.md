@@ -1,4 +1,4 @@
-Hacker News mobile app
+Cross-Platform Hacker News app
 ==
 
 #### Web: http://hn.premii.com
@@ -18,7 +18,7 @@ Hacker News mobile app
 <code>
 "url" : {
     "stories" : "http://ng.premii.com:8080",
-    "readability": "http://localhost/a/read/sample.txt"
+    "readability": "http://localhost/app/read/sample.txt"
 }
 </code>
 
@@ -38,4 +38,3 @@ Update these paths to point to your HN stories server and readability server. Se
 * Combine and minify JS using uglifyjs
 * Combine CSS into one file
 * Phonegap ready code
-
