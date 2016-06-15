@@ -18,3 +18,8 @@ Cross-Platform Hacker News app
 * Normalize.css*
 
 ![Demo](https://raw.github.com/amilajack/hn/master/app/img/demo.png)
+
+## Todo:
+
+- [ ] Add postcss autoprefixer support, css (concat, transp, minify) with npm scripts
+- [ ] SASS support
